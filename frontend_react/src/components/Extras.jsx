@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
 
-const SocialMedia = () => {
+const LightDarkMode = () => {
   //sets component's light state to true
   const [light, setLightState ] = useState(true);
   //Adds light/dark mode button functionality
@@ -38,4 +38,4 @@ const SocialMedia = () => {
   )
 }
 
-export default SocialMedia
+export default LightDarkMode
