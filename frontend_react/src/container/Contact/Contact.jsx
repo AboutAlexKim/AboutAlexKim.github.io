@@ -23,13 +23,13 @@ const Contact = () => {
       {/* LinkedIn contact card */}
       <div className="app__contact-card">
         <img src={images.linkedin} alt="LinkedIn"/>
-        <a href="tel: +1 (703) 380-5515" className="p-text app__contact-section">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/alex-kim-917bb81a5" className="p-text app__contact-section">LinkedIn</a>
       </div>
 
       {/* GitHub contact card */}
       <div className="app__contact-card">
         <img src={images.github} alt="GitHub"/>
-        <a href="tel: +1 (703) 380-5515" className="p-text app__contact-section">GitHub</a>
+        <a href="https://ajk3158.github.io/" className="p-text app__contact-section">GitHub</a>
       </div>
     </div>
     </div>
