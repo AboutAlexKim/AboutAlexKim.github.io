@@ -15,22 +15,22 @@ const Contact = () => {
     
     <div className="app__contact-cards">
       {/* Email contact card */}
-      <div className="app__contact-card">
+      <a href="mailto:alexjoonkim02@gmail.com" className="app__contact-card">
         <img src={images.email} alt="email"/>
-        <a href="mailto:alexjoonkim02@gmail.com" className="p-text app__contact-section">Email</a>
-      </div>
+        <div className="p-text app__contact-section">Email</div>
+      </a>
 
       {/* LinkedIn contact card */}
-      <div className="app__contact-card">
+      <a href="https://www.linkedin.com/in/alex-kim-917bb81a5" className="app__contact-card">
         <img src={images.linkedin} alt="LinkedIn"/>
-        <a href="https://www.linkedin.com/in/alex-kim-917bb81a5" className="p-text app__contact-section">LinkedIn</a>
-      </div>
+        <div className="p-text app__contact-section">LinkedIn</div>
+      </a>
 
       {/* GitHub contact card */}
-      <div className="app__contact-card">
+      <a href="https://github.com/ajk3158" className="app__contact-card">
         <img src={images.github} alt="GitHub"/>
-        <a href="https://ajk3158.github.io/" className="p-text app__contact-section">GitHub</a>
-      </div>
+        <div className="p-text app__contact-section">GitHub</div>
+      </a>
     </div>
     </div>
     </>
