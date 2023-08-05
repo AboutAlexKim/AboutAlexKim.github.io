@@ -36,9 +36,9 @@ const Home = () => {
           </div>
 
           <div className="tag-cmp app__flex">
-          <p className="p-text app__home-text">Web Developer</p>
-          <p className="p-text app__home-text">Software Engineer</p>
-          <p className="p-text app__home-text">Internet Nerd</p>
+          <p className="p-text app__home-text">Full-Stack Developer</p>
+          <p className="p-text app__home-text">ML/AI Enthusiast</p>
+          <p className="p-text app__home-text">Technology Geek</p>
           </div>
         </div>
       </motion.div>
@@ -66,7 +66,7 @@ const Home = () => {
       whileInView={scaleVariants.whileInView}
       className="app__home-circles"
       >
-        {[images.react, images.java, images.php].map((circle, index) => (
+        {[images.python, images.java, images.keras].map((circle, index) => (
           <div className="circle-cmp app__flex" key={`circle-${index}`}>
             <img src={circle} alt="profile_bg" />
           </div>
