@@ -62,6 +62,7 @@ import Project15 from '../assets/Works/Project15.png';
 import Project16 from '../assets/Works/Project16.png';
 import Project17 from '../assets/Works/Project17.png';
 import Project18 from '../assets/Works/Project18.png';
+import Project19 from '../assets/Works/Project19.png';
 
 export default {
   email,
@@ -125,6 +126,7 @@ export default {
   Project15,
   Project16,
   Project17,
-  Project18
+  Project18,
+  Project19
 
 };
