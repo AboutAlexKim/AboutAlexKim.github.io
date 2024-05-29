@@ -33,7 +33,7 @@ export const works = [
 ];
 
 export const abouts = [
-    {title: 'Weight Lifting', description: 'I love to go to the gym and push my body as much as possible!', imgUrl: images.about01},
+    {title: 'Weight Lifting & Running', description: 'I love pushing my body to its limits in either the gym or on a run!', imgUrl: images.about01},
     {title: 'Cooking', description: 'I love to cook new recipes and challenge myself in the kitchen!', imgUrl: images.about02},
     {title: 'Family/Friends', description: 'I love spending time with my friends/family in my free time!', imgUrl: images.about03}
 ];
