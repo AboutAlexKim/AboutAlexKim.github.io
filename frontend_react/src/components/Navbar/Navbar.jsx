@@ -30,14 +30,14 @@ const Navbar = () => {
 
       {/* Navbar button and menu with links once screen is smaller */}
       <div className="app__navbar-menu">
-        <HiMenu onClick={() => setToggle(true)} />
+        <HiMenu style={{cursor: 'pointer'}} onClick={() => setToggle(true)} />
 
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}
             transition={{ duration: 1, ease: 'easeOut' }}
           >
-            <HiX onClick={() => setToggle(false)} />
+            <HiX style={{cursor: 'pointer'}} onClick={() => setToggle(false)} />
             <ul>
             {['home', 'about', 'work', 'experience', 'contact'].map((item) => (
               <li key={item}>

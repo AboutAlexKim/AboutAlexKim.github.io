@@ -1,11 +1,11 @@
-.app__contact{
+.app__contact {
     flex: 1;
     width: 100%;
     flex-direction: column;
     //border-top: 2px solid #d3d3d3;
     margin-top: 1%;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         flex-direction: column;
     }
 }
@@ -19,19 +19,21 @@
     padding-bottom: 1rem;
     flex-direction: column;
 
-    .app__contact-card:nth-child(1){
-        img{
+    .app__contact-card:nth-child(1) {
+        img {
             width: 42px;
             height: 32px;
             margin: 0 0.7rem;
         }
     }
+
     .app__contact-card {
         min-width: 290px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
+        text-decoration: none;
 
         margin: 1rem 0;
         padding: 1rem;
@@ -41,47 +43,49 @@
 
         transition: all 0.3s ease-in-out;
 
-        img{
+        img {
             width: 40px;
             height: 40px;
             margin: 0 0.7rem;
         }
 
-        p{
+        p {
             font-weight: 500;
         }
 
-        a{
+        a {
             text-decoration: none;
             font-weight: 500;
         }
 
-        &:hover{
+        &:hover {
             box-shadow: 0 0 25px #fef4f5;
         }
 
-        @media screen and (max-width:450px){
+        @media screen and (max-width:450px) {
             width: 100%;
         }
 
-        .app__contact-section{
+        .app__contact-section {
             color: var(--black-color);
         }
-        
+
     }
-    @media screen and (max-width:768px){
+
+    @media screen and (max-width:768px) {
         width: 100%;
     }
 }
 
-.app__contact-cards .app__contact-card:nth-child(2){
+.app__contact-cards .app__contact-card:nth-child(2) {
     background-color: #f2f7fb;
 }
-.app__contact-cards .app__contact-card:nth-child(3){
+
+.app__contact-cards .app__contact-card:nth-child(3) {
     background-color: #d5fbee;
 }
 
-.app__contact-divider{
-    font-size:5rem;
-    text-align:center;
+.app__contact-divider {
+    font-size: 5rem;
+    text-align: center;
 }

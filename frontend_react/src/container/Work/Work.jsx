@@ -34,12 +34,12 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text header-space">
-        My Creative <span>Portfolio</span> Section
+        My Professional <span>Portfolio</span> Section
       </h2>
 
       {/* Defines the work filter */}
       <div className="app__work-filter">
-        {['Front-End', 'Back-End', 'Full-Stack', 'Data Science', 'All'].map((item, index) => (
+        {['Front-End', 'Back-End', 'Full-Stack', 'Data Science', 'ML/AI', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -61,13 +61,13 @@ const Work = () => {
             <div className="app__work-img app__flex">
               {/* portfolio item picture with accompanying front-end/animations */}
               <img src={work.imgUrl} alt={work.title} />
+              <a href={work.projectLink} target="_blank" rel="noreferrer">
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
                 {/* Link to Portfolio item with accompanying front-end */}
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -76,9 +76,10 @@ const Work = () => {
                   >
                     <AiFillEye />
                   </motion.div>
-                </a>
+
                 
               </motion.div>
+              </a>
 
             </div>
 

@@ -25,6 +25,15 @@ import lando from '../assets/Technologies/lando.png';
 import trello from '../assets/Technologies/trello.png';
 import office365 from '../assets/Technologies/office365.png';
 import docker from '../assets/Technologies/docker.png';
+import neo4j from '../assets/Technologies/neo4j.png';
+import cameo from '../assets/Technologies/cameo.png';
+import keras from '../assets/Technologies/keras.png';
+import pandas from '../assets/Technologies/pandas.png';
+import numpy from '../assets/Technologies/numpy.png';
+import sklearn from '../assets/Technologies/sklearn.png';
+import matplotlib from '../assets/Technologies/matplotlib.png';
+import gitlab from '../assets/Technologies/gitlab.png';
+import flask from '../assets/Technologies/flask.png';
 
 import about01 from '../assets/Abouts/about01.png';
 import about02 from '../assets/Abouts/about02.png';
@@ -33,6 +42,7 @@ import about03 from '../assets/Abouts/about03.png';
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
+import resume from '../assets/resume.png';
 
 import Project1 from '../assets/Works/Project1.png';
 import Project2 from '../assets/Works/Project2.png';
@@ -43,13 +53,22 @@ import Project6 from '../assets/Works/Project6.png';
 import Project7 from '../assets/Works/Project7.png';
 import Project8 from '../assets/Works/Project8.png';
 import Project9 from '../assets/Works/Project9.png';
+import Project10 from '../assets/Works/Project10.png';
+import Project11 from '../assets/Works/Project11.png';
+import Project12 from '../assets/Works/Project12.png';
+import Project13 from '../assets/Works/Project13.png';
+import Project14 from '../assets/Works/Project14.png';
+import Project15 from '../assets/Works/Project15.png';
+import Project16 from '../assets/Works/Project16.png';
+import Project17 from '../assets/Works/Project17.png';
+import Project18 from '../assets/Works/Project18.png';
+import Project19 from '../assets/Works/Project19.png';
 
 export default {
   email,
   mobile,
   bootstrap,
   css,
-  docker,
   git,
   github,
   html,
@@ -79,6 +98,16 @@ export default {
   trello,
   office365,
   docker,
+  resume,
+  neo4j,
+  cameo,
+  keras,
+  pandas,
+  numpy,
+  sklearn,
+  matplotlib,
+  gitlab,
+  flask,
 
   Project1,
   Project2,
@@ -88,5 +117,16 @@ export default {
   Project6,
   Project7,
   Project8,
-  Project9
+  Project9,
+  Project10,
+  Project11,
+  Project12,
+  Project13,
+  Project14,
+  Project15,
+  Project16,
+  Project17,
+  Project18,
+  Project19
+
 };
