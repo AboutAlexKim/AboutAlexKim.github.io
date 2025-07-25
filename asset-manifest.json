@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d20da29b.css",
-    "main.js": "/static/js/main.c0338b8a.js",
+    "main.css": "/static/css/main.032e3818.css",
+    "main.js": "/static/js/main.78fbc9a1.js",
     "static/media/about03.png": "/static/media/about03.b95531ccd1d09fd1d689.png",
     "static/media/Project3.png": "/static/media/Project3.67d8b6952617b15901e0.png",
     "static/media/Project2.png": "/static/media/Project2.73b35cebde4201abf680.png",
@@ -19,10 +19,10 @@
     "static/media/Project4.png": "/static/media/Project4.6c59130dc5ce07a1bc7d.png",
     "static/media/Project1.png": "/static/media/Project1.7f0ae1a3ab81eb9a1ce8.png",
     "static/media/heroku.png": "/static/media/heroku.c1779065aa2f18948e64.png",
+    "static/media/Resume.pdf": "/static/media/Resume.ea293dba026a9a6f1433.pdf",
     "static/media/Project16.png": "/static/media/Project16.675265b879a963c7a6db.png",
     "static/media/Project10.png": "/static/media/Project10.5c0ce2489d6e075a7860.png",
     "static/media/django.png": "/static/media/django.47daa66d9bee5b34fa56.png",
-    "static/media/Resume.pdf": "/static/media/Resume.75ce2d60193c8cd74ae9.pdf",
     "static/media/Project12.png": "/static/media/Project12.36d5f57fd7c902f4d847.png",
     "static/media/Project13.png": "/static/media/Project13.ee9b7aa31e8f92791f21.png",
     "static/media/email.png": "/static/media/email.00cad07fc47e95dab520.png",
@@ -55,11 +55,11 @@
     "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.d20da29b.css.map": "/static/css/main.d20da29b.css.map",
-    "main.c0338b8a.js.map": "/static/js/main.c0338b8a.js.map"
+    "main.032e3818.css.map": "/static/css/main.032e3818.css.map",
+    "main.78fbc9a1.js.map": "/static/js/main.78fbc9a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d20da29b.css",
-    "static/js/main.c0338b8a.js"
+    "static/css/main.032e3818.css",
+    "static/js/main.78fbc9a1.js"
   ]
 }
